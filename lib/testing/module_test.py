@@ -7,8 +7,8 @@ from versions import (
 def test_python_version():
     version_info = python_version()
     assert version_info.major == 3
-    assert version_info.minor == 9
-    assert version_info.micro == 2
+    assert version_info.minor == 10
+    assert version_info.micro == 8
 
 
 def test_requests_version():
